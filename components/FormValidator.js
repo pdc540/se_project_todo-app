@@ -84,6 +84,8 @@ class FormValidator {
     3;
     inputList.forEach((input) => {
       input.value = "";
+      this._formEl.querySelector(this._submitButtonSelector).disabled = true;
+      this._formEl.querySelector(this._submitButtonSelector).classList.add(this._inactiveButtonClass);
       this._hideInputError(this._formEl, input);
     });
   }

@@ -8,6 +8,8 @@ This project is an application for creating a todo list of tasks to complete. Us
 
 Give a more detailed explanation of the project and its functionality.
 
+The user can add 'todo tasks' using the 'Add Todo' button in the upper right corner. They can name their tasks and assign a due date to them. Once they add their task and submit it, the input fields reset automatically. The submit button cannot be clicked until a name has been given to their task. The due date is optional. 
+
 ## Technology
 
 Give a description of the technologies and techniques used. Pictures, GIFs, or screenshots that detail the project features are recommended.
@@ -16,4 +18,4 @@ Give a description of the technologies and techniques used. Pictures, GIFs, or s
 
 This project is deployed on GitHub Pages:
 
-- ADD LINK HERE
+https://pdc540.github.io/se_project_todo-app/
