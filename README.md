@@ -2,6 +2,8 @@
 
 Give a brief description of the project here. Feel free to give it a different name.
 
+This project is an application for creating a todo list of tasks to complete. Users can name the task they want to add and add a date for when they wish to complete.
+
 ## Functionality
 
 Give a more detailed explanation of the project and its functionality.
