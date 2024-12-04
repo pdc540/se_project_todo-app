@@ -77,17 +77,14 @@ class FormValidator {
     const inputList = Array.from(
       this._formEl.querySelectorAll(this._inputSelector)
     );
-    this._toggleButtonState(
-      inputList,
-      this._formEl.querySelector(this._submitButtonSelector)
+    const buttonElement = this._formEl.querySelector(
+      this._submitButtonSelector
     );
-    3;
     inputList.forEach((input) => {
       input.value = "";
-      this._formEl.querySelector(this._submitButtonSelector).disabled = true;
-      this._formEl.querySelector(this._submitButtonSelector).classList.add(this._inactiveButtonClass);
       this._hideInputError(this._formEl, input);
     });
+    this._toggleButtonState(inputList, buttonElement);
   }
 
   enableValidation = () => {
